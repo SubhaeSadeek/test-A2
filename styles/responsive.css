@@ -1,0 +1,143 @@
+@media screen and (max-width: 600px) {
+
+   /* navbar section  */
+   #navbar-box-2{
+    display: none;
+   }
+   #navbar-box-3{
+    display: block;
+}
+    /* banner section */
+    body{
+        max-width: 600px;
+    }
+
+
+    .banner-container{
+        height: auto;
+        margin: 0px auto;
+    }
+    .banner-box{
+        margin-top: 0.5em;
+        text-align: center;
+    }
+
+   #banner-box-2{
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        gap: 1.5em;
+    
+}
+.banner-box h2{
+    font-size: 1.4em;
+    width: auto;
+    margin: 0.5em auto;
+    text-align: center;
+    color: #fff;
+}
+.banner-box p{
+    font-size: .9em;
+    margin: 0.5em auto;
+    color: #fff;
+}
+
+/* our popular tour section */
+.popular-tours-container{
+  
+   flex-direction: column;
+   justify-content: center;
+}
+/* -------Choose Your Destination Section---------- */
+.img-destination-container{
+        
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    box-sizing: border-box;
+    
+}
+.img-destination-container img{
+width: 100%;
+height: auto;
+}
+.destination-box .mulish-heading{
+    left: 27%;
+    top: 30%;
+    
+}
+/* why choose us section */
+
+.why-choose-card{
+    flex: 0 0 100%;
+    text-align: left;
+
+}
+.why-choose-container > h2{
+    font-size: 2em;
+}
+
+/* deals section */
+.deals-discount{
+    display:flex;
+    flex-direction: column;
+}
+/* extra section_Hot Deal */
+
+.extra-card-container{
+    flex-direction: column;
+    align-items: center;
+}
+.extra-container h2, p{
+    text-align: center;
+}
+
+
+ /* Newsleter Section  */
+
+ .newsletter{
+    flex-direction: column;
+    gap: 2em;
+
+}
+#newsletter-container1 img{
+    width: 100%;
+    height: auto;
+}
+#button1 .mulish-heading{
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+#button1{
+    width: 275px;
+    height: 120px;
+    bottom: 18%;
+    right: 1.5%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

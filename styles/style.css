@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* -----------shared styles----------- */
+*{
+   font-family: "Mulish", sans-serif;
+   font-optical-sizing: auto;
+   font-size: 1em;
+   font-weight: 400;
+   font-style: normal;
+   color: rgba(19, 19, 24, 0.70);
+
+}
+.mulish-heading {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+
+
+
+body{
+background-color: azure;
+max-width: 1440px;
+
+}
+.btn-primary{
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 1.25em;
+    color: #fff;
+    text-align: center;
+    background: #FF5400;
+    
+}
+
+.text-white{
+    color: #fff;
+}
+/* -------Shares Style Ends--------- */
+/* --------------------------------- */
+
+/* Navbar Section */
+nav{ 
+    max-width: 81%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav1{
+    display: flex;
+}
+
+#nav1 #nav-heading1{
+    font-size: 2em;
+}
+#nav1 #nav-heading2{
+    color: #FF5400;
+    font-size: 2em;
+}
+#navbar-box-2  ul{
+    display: flex;
+    gap: 2em;
+}
+#navbar-box-2  li{
+    list-style-type: none;
+}
+#navbar-box-2  a{
+    text-decoration: none;
+}
+#navbar-box-2  li:hover{
+    color: #FF5400;
+}
+
+/* -------------for Hamberger menu------*/
+#navbar-box-3{
+    display: none;
+}
+  /* Banner Section */
+.banner-container{
+    max-width: 81%;
+    height: 500px;
+    margin: 2em auto;
+    background-image: url("../images/banner.png");
+    border-radius: 1em;
+}
+.container-hue{
+    /* height: 500px; */
+    margin: 0px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 1em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-box{
+    /* width: 800px; */
+    margin-top: 5em;
+    text-align: center;
+}
+.banner-box h2{
+    font-size: 3em;
+    width: 90%;
+    margin: 0.5em auto;
+    color: #fff;
+}
+.banner-box p{
+    width: 60%;
+    margin: 0.5em auto;
+    color: #fff;
+}
+
+#banner-box-2{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    align-items: center;
+    padding: 1em;
+    gap: 1.5em;
+}
+#banner-box-2 .banner-input{
+    width: 175px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#banner-box-2 .btn-primary{
+    font-size: 1em;
+    font-weight: 700;
+}
+/* --------------Banner Section ENDS---------------- */
+
+
+
+/* -------Our Poular Tour Section STARTS---------- */
+.popular-tours-container{
+    max-width: 81%;
+    height: auto;
+    margin: 6rem auto;
+    box-sizing: border-box;
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+
+}
+.tour-box{
+    flex: 1;
+    text-align: justify;
+  
+} 
+#tour-box-img{
+    width: 100%;
+    height: auto;
+    
+}
+/* -------Our Poular Tour Section ENDS---------- */
+
+/* -------Choose Your Destination Section STARTS---------- */
+.choose-destination-container{
+    width: 81%;
+    height: auto;
+    margin: 2em auto;
+    text-align: center;
+}
+.choose-destination-container > p{
+    width: 50%;
+    margin: auto;
+}
+
+.img-destination-container{
+        
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+    box-sizing: border-box;
+    
+}
+.img-destination-container img{
+    width: 100%;
+    height: 100%;
+}
+#destination-box-1, #destination-box-2, #destination-box-6, #destination-box-7{
+    grid-column: span 2;
+}
+
+#destination-box-3, #destination-box-5{
+    grid-row: span 1;
+}
+#destination-box-4{
+    grid-column: span 2;
+    /* grid-row: span 1; */
+    
+}
+.destination-box{
+    position: relative;
+}
+.destination-box .mulish-heading{
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    color: #fff;
+    font-size: 2.25em;
+}
+/* -------Choose Your Destination Section ENDS---------- */
+
+/* -------WHY Choose US Section STARTS---------- */
+.why-choose-container{
+    width: 81%;
+    margin: 2em auto;
+}
+
+.why-choose-card-container{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.why-choose-card{
+    flex: 0 0 45%;
+    padding: 1em;
+
+}
+.why-choose-card .mulish-heading{
+    font-size: 1.5em;
+ }
+.why-choose-container > h2, #why-choose-text {
+    text-align: center;
+    width: 50%;
+    margin: 1em auto;
+}
+#self-card-1, #self-card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+#self-card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+/* ----------deals and discount section STARTS............ */
+.deals-discount{
+    max-width: 81%;
+    margin: 0px auto;
+}
+#discount-text, #discount-head {
+    text-align: center;
+    max-width: 50%;
+    margin: 1em auto;
+}
+.discount-image{
+    width: 100%;
+    height: auto;
+}
+
+#deals-card-container-1, #deals-card-container-2, #deals-card-container-3{
+    position: relative;
+}
+#offer-card-1, #offer-card-2, #offer-card-3{
+    position: absolute;
+    max-width: 580px;
+    max-height: 390px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+ }
+ #offer-card-1, #offer-card-3{
+    top: 7%;
+    right: 5%;
+ }
+ #offer-card-2{
+    top: 7%;
+    left: 5%;
+ }
+
+.discount-content{
+    max-width: 70%;
+    margin: 1em auto;
+    padding: 1em;
+}
+ #discount-head-name{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+ }
+ #discount-head-price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    
+ }
+.dynamic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dynamic p{
+    flex: 1;
+}
+.dynamic img{
+    width: 7%;
+    height: auto;
+}
+/* -----------extra section----------- */
+.extra-container{
+    max-width: 81%;
+    margin: 0px auto;
+}
+.extra-card-container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 1em;
+    
+ 
+}
+.extra-container > p{
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+}
+.extra-card p{
+    padding: 1em;
+}
+
+.extra-card-container img{
+    width: 100%;
+    border-radius: 1em;
+    
+}
+.extra-card{
+    background: rgba(255, 84, 0, 0.4);
+    border-radius: 1em;
+}
+.extra-card:hover{
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+.extra-card .mulish-heading{
+    font-size: 22px;
+    padding-left: 1em;
+}
+#extra-box-1, #extra-box-3{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99);
+}
+
+.extra-card #extra-box-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 1);
+}
+.extra-container > h2{
+    font-size: 2.5em;
+    color: transparent;
+    text-align: center;
+    animation: hotDealAnim 3s linear infinite
+
+
+}
+@keyframes hotDealAnim {
+    0% {
+        background: linear-gradient(#008000, #0F0);
+        -webkit-background-clip: text;
+    }
+    25% {
+        background: linear-gradient(#f7fad3, #8f8f07);
+        -webkit-background-clip: text;
+    }
+
+    50% {
+        background: linear-gradient(#e71708, #fae0e1);
+        -webkit-background-clip: text;
+    }
+    75% {
+        background: linear-gradient(#bfe8f0, #02848d);
+        -webkit-background-clip: text;
+    }
+    100% {
+        background: linear-gradient(#000FFF, #3CE7D7);
+        -webkit-background-clip: text;
+    }
+}
+.extra-card img{
+    width: 100%;
+    height: auto;
+}
+/* -------Extra bonus section ends---------- */
+
+
+/* -------Newsletter Section STARTS---------- */
+
+.newsletter{
+    width: 81%;
+    margin: 4em auto;
+    display:flex;
+    gap: 2em;
+    
+}
+.newsletter #news-border{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+#news-border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.newsletter-container{
+    flex: 1;
+}
+#news-border input{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 1em;
+    border: none;
+}
+#submit1 {
+    width: 393px;
+    height: 52px;
+
+}
+
+.newsletter-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#button1{
+    position: absolute;
+    width: 325px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    bottom: 13%;
+    right: 1.5%;
+
+}
+
+/* Footer Section Strart */
+footer{
+    max-width: 100%;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgba(19, 19, 24, 0.05);;
+}
+.footer-foo{
+    margin-top: 2em;
+    max-width: 50%;
+}
+#footer1{
+    display: flex;
+        
+}
+#footer2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+#footer2 img{
+    justify-self: center;
+    align-self: center;
+    width: 30%;
+    height: auto;
+    padding-bottom: 5em;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);;
+}
+ .footer-foo #footer-heading{
+    color: #FF5400;
+    font-size: 2em;
+}
